@@ -1,6 +1,15 @@
 # urld
 A simple python url Decomposer
 
+
+## Installing
+
+git clone https://github.com/cYph3r1337/urld
+cd urld  
+pip3 install -r requirements.txt  
+python3 urld.py -h 
+
+
 ## Documentation 
 `python3 main.py -h`
 
