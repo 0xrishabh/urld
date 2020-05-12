@@ -1,7 +1,7 @@
 # urld
 A simple python url Decomposer
 
-## For Help 
+## Documentation 
 `python3 main.py -h`
 
 `python3 main.py -u "<YOUR URL> <OPTION>"` Structure of command
@@ -13,6 +13,11 @@ A simple python url Decomposer
 `python3 main.py -u "<YOUR URL>" --query` to show *query* part of the url.
 
 `python3 main.py -u "<YOUR URL>" --all` to show *all* parts of the url.
+
+**urld also takes url from STDIN so, this works too**
+
+`echo "<YOUR URL>" | python3 main.py --all`
+
 
 ## Test command
 
