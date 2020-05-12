@@ -3,7 +3,7 @@ import argparse,sys
 from huepy import *
 
 my_parser = argparse.ArgumentParser(description='Url Decomposer')
-my_parser.add_argument('-u',metavar='u',type=str,help='Url to be decomposed')
+my_parser.add_argument('-u',type=str,help='Url to be decomposed')
 my_parser.add_argument('--query', action='store_true',help='Show Only query part of the Url')
 my_parser.add_argument('--hostname', action='store_true',help='Show Only hostname part of the Url')
 my_parser.add_argument('--path', action='store_true',help='Show Only path part of the Url')
